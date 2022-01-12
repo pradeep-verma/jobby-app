@@ -1,0 +1,36 @@
+.job-item-details-skill-item-container {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .job-item-details-skill-item-container {
+    width: 250px;
+    margin-bottom: 40px;
+  }
+}
+.job-item-details-skill-image {
+  width: 26px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .job-item-details-skill-image {
+    width: 50px;
+    margin-right: 14px;
+  }
+}
+.job-item-details-skill-name {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .job-item-details-skill-name {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: #f8fafc;
+  }
+}
